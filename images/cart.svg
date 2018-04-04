@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>icons/cart</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icons/cart" fill="#2D2D2D">
+            <path d="M3.916275,20.25 L5.258775,7.5 L17.408025,7.5 L18.749775,20.25 L3.916275,20.25 Z M11.333025,3.75 C12.727275,3.75 13.891275,4.71 14.226525,6 L8.439525,6 C8.775525,4.71 9.939525,3.75 11.333025,3.75 L11.333025,3.75 Z M18.758775,6 L15.765525,6 C15.406275,3.87525 13.558275,2.25 11.333025,2.25 C9.107775,2.25 7.259775,3.87525 6.900525,6 L3.908025,6 L2.249775,21.75 L20.416275,21.75 L18.758775,6 Z" id="Fill-1"></path>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,236 @@
+html, body {
+  padding: 0;
+  margin: 0;
+}
+body{
+  background-color: #F5F1E8;
+  padding-top:20px;
+  padding-left:50px;
+  padding-right:50px;
+
+}
+ #view-product {
+  background-image: linear-gradient(to right, #eee6ff, #f4e6fb, #f9e6f7, #fce7f3, #fde8f0);
+}
+.hide-me {
+  visibility: hidden;
+  opacity: 0;
+  transform: scale(.75);
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 2.4em;
+  font-weight: normal;
+  display: inline-block;
+}
+
+body {
+  font-family: 'Arimo', sans-serif;
+
+}
+
+button {
+  background-color: #01F3CA;
+  color: #000;
+  border: none;
+  padding: 10px 15px;
+  font-size: 15px;
+  border-radius: 50%;
+  cursor: pointer;
+  outline: none;
+  transition: opacity .4s ease-out, transform .4s ease-out, visibility .4s ease-out;
+  position: relative;
+
+}
+
+button:hover {
+  background-color: #ccfff5;
+}
+
+button:active {
+  background-color: #ccfff5;
+  box-shadow: none;
+  position: relative;
+  top: -8px;
+  left: 2px;
+}
+
+p {
+  
+  margin: 0;
+}
+.preview{
+  max-width: 100%;
+}
+.fa-shopping-bag{
+  float: right;
+}
+.cart{
+  max-width:100px;
+  float:right;
+}
+.modal{
+  display: none;
+  text-align:center;
+ max-width:500px;
+ margin:0 auto;
+}
+.active{
+  display: block;
+}
+#overview{
+  background-image: linear-gradient(to right, #eee6ff, #f4e6fb, #f9e6f7, #fce7f3, #fde8f0);
+  padding: 20px;
+  margin-top: 20px;
+  min-height: 680px;
+}
+#overview .col-6{
+  float: left;
+}
+#product-video{
+      background-color: #c6f4f0;
+      min-height: 540px;
+      margin-left: -50px;
+    margin-right: -50px;
+}
+#product-video .video-frame{
+  text-align: center;
+  max-width: 60rem;
+  margin:auto;
+}
+#product-video .title-xl{
+  width: 100%;
+  text-align: center;
+}
+#product-video video{
+  margin: auto;
+}
+#mobile-nav {
+    display: none;
+}
+#menu-trigger {
+    display: none;
+}
+#main-nav ul {
+    display: block;
+    float: right;
+    position: relative;
+    top: 1px;
+}
+#main-nav ul li {
+    margin: 0 .75rem;
+    display: inline-block;
+}
+
+#main-nav ul li a {
+    display: block;
+    text-decoration: none;
+    color: #2D2D2D;
+    font-size: .875rem;
+    font-family: 'Arimo';
+    font-weight: bold;
+    font-style: normal;
+    letter-spacing: .75px;
+}
+.carousel-indicators li {
+    position: relative;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    width: 10px;
+    height: 10px;
+    margin: 0 8px;
+    background-color: #333;
+    border-radius: 50%;
+    opacity: .25;
+}
+.carousel-indicators .active{
+  background: #333;
+  opacity: 1;
+
+}
+.title-xl{
+  font-family: 'Arimo';
+font-weight: normal;
+font-style: normal;
+font-size: 2.25rem;
+}
+.product__price {
+    font-family: 'Arimo';
+    font-weight: bolder;
+    font-style: normal;
+    display: inline-block;
+    font-size: 1.25rem;
+    margin-right: .5rem;
+    margin-top: 0.3125rem;
+}
+.product__features li {
+    margin-bottom: .625rem;
+    text-align: left;
+    display: inline-block;
+    margin-right: .625rem;
+    font-family: 'Arimo';
+    font-weight: normal;
+    font-style: normal;
+    font-size: .875rem;
+    text-transform: capitalize;
+}
+.carousel-item{
+  height:500px;
+
+}
+.carousel-item img{
+  height: auto;
+}
+h1.title-xl, .data-price-wrapper{
+  width: 100%;
+}
+ul{
+      -webkit-padding-start: 0px;
+}
+.product-info{
+  background-color:#fff;
+  border-bottom:solid 1px;
+  margin-bottom:10px;
+  padding:5px;
+  border-bottom-left-radius:10px;
+  border-bottom-right-radius:10px;
+
+}
+#product-container img{
+  border-top-left-radius:10px;
+  border-top-right-radius:10px;
+  border-bottom:1px solid #c6f4f0;
+}
+#product-container h4{
+  font-weight:bold;
+  font-size:18px;
+  margin-bottom:20px;
+}
+#product-container h6{
+  font-weight:lighter;
+  font-size:12px;
+}
+h1{
+  margin-top:20px;
+  font-size:24px;
+  font-weight:bold;
+}
+#gifImages, #query{
+  width: 100%;
+  float: left;
+
+}
+.description-section{
+  padding-bottom:10px;
+}
+.description-section p{
+  font-size: .875rem;
+}
+.description-section h5{
+  font-weight:bolder;
+}
