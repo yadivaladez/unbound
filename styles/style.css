@@ -52,12 +52,11 @@ button:active {
   background-color: #ccfff5;
   box-shadow: none;
   position: relative;
-  top: -8px;
-  left: 2px;
+  
 }
 
 p {
-  
+
   margin: 0;
 }
 .preview{
